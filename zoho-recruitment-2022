@@ -1,0 +1,27 @@
+package alpha;
+
+public class Alpha {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i,j;
+		 int n=5;
+		 int diff,value; 
+		 
+		     for(i=1;i<=n;i++)
+		     {
+		 diff=n-1;
+		 value=i;
+		        for(j=1;j<=i;j++)
+		         {
+		             System.out.printf("%4c", (char)value+64);
+		         value=value+diff; 
+		             diff--;
+		         } 
+		         System.out.println("");
+
+	}
+
+}
+	
+}
